@@ -1,0 +1,138 @@
+@charset
+"utf-8"
+;
+/** sidebar widget start **/
+
+div.sidebar_agent_widget {
+  margin: 1em 0;
+}
+
+p.sidebar_links {
+  text-align: center;
+}
+
+/** sidebar widget end **/
+
+/**styles review.php**/
+p.review_person {
+  margin: 20px 0 0 0;
+  text-align: right;
+}
+
+.agentrank_review blockquote {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.agentrank_review blockquote p:before {
+  content: '"';
+}
+
+.agentrank_review blockquote p:after {
+  content: '"';
+}
+
+/**end of style review.php**/
+
+/*charts*/
+.agentrank-chart {
+  margin: 0 1em;
+  display: inline;
+}
+
+/** pagination start **/
+.agentrank-pagination {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.agentrank-page-numbers {
+  color: #669933;
+  padding: 4px 5px;
+  font: bold 10pt Arial;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+
+.agentrank-page-numbers:hover {
+  color: #FFF;
+  background-color: #669933;
+}
+
+.agentrank-page-numbers.current {
+  color: #FFF;
+  background-color: #669933;
+}
+
+.agentrank-page-numbers.previous, #agentrank-page-numbers.next {
+  font: bold 10pt Arial;
+}
+
+/** pagination end **/
+
+/** contact form start **/
+.sb_form_title {
+  margin: 1em 0;
+}
+
+.sb_form_elements {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.sb_form_elements textarea {
+  width: 100%;
+}
+
+/** context form end **/
+
+/*Styles Contact Form*/
+.agent_contact_form_title {
+  margin-bottom: 20px;
+}
+
+form.agent_contact_form label {
+  width: 170px;
+  display: inline-block;
+  margin: 15px 0 0 0;
+}
+
+form.agent_contact_form input {
+  width: 15em;
+  display: inline-block;
+}
+
+form.agent_contact_form input#subject {
+  width: 90%;
+  display: inline-block;
+}
+
+form.agent_contact_form textarea#body {
+  width: 90%;
+  height: 100px;
+  display: inline-block;
+}
+
+form.agent_contact_form {
+  text-align: left;
+}
+
+form.agent_contact_form .ag_form_elements {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form.agent_contact_form .ag_form_elements_button {
+  display: inline-block;
+  font-weight: bold;
+  margin: 10px 5px;
+  width: auto;
+}
+
+.label-highlight {
+  background-color: #00FF00;
+  text-align: left;
+}
+
+/*end of contact form style.*/
